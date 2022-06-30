@@ -1,11 +1,11 @@
 # Steps taken to join XYZ domain
 
-1. Clone Base Win 11 VM into WS01.
+1. Clone Base Win 11 VM into `WS01`.
     - Suspend Base Machine and copy its contents into a new folder.
     - Use "Open a Virtual Machine" Option within VMWare Workstation 16 Player.
     - Use the `.vmx` within copied folder to launch new VM.
 
-2. Connect WS01 to DNS.
+2. Connect `WS01` to DNS.
     - Find out what DNS Server `WS01` is connected to.
     ```
     Get-DNSClientServerAddress
